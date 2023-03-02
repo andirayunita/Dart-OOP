@@ -12,7 +12,7 @@ class Person {
 
   Person.withAddress(String address) : this("", address);
 
-  //Redirect Constructor to Named Constructor
+  //Redirect Constructor to Named Constructor; can't have a body
   Person.fromJakarta() : this.withAddress('DKI Jakarta');
 
   Person.withNoName() : this.withName('No Name');
